@@ -1,45 +1,61 @@
 console.log('# ARRAY CHALLENGES')
 
-const numbers = [
-  3,
-  24,
-  15,
-  -1,
-  200,
-  13,
-  -80,
-  14,
-  10000,
-  -19,
+const numbers = [ 3, 24, 15, -1, 200, 13, -80, 14, 10000, -19,
 ];
 
 console.log('### Challenge #1');
 
 // Console out each number in the `numbers` array, individually.
+console.log(numbers)
+
 
 
 console.log('### Challenge #2');
 
 // Now do the same thing, but backwards.
+let i = numbers.length
+while (i >= 0){
+  console.log(numbers[i])
+  i = i -1
+}
+i = 0
 
 
 console.log('### Challenge #3');
+i = 0
+while (i < numbers.length){
+console.log(numbers[i] + 19)
+  i = i + 1
+}
+
+
 
 // Console out each number plus 19, individually.
 
 
 console.log('### Challenge #4');
-
+i = 0 
+while( i <numbers.length){
+  console.log(numbers)
+  i  = i + 1
+}
 // Console out the sum of all the numbers.
 
 
-console.log('### Challenge #5');
+console.log('### Challenge #5')
+  if (numbers[] %2 === 0)
+  console.log(numbers[])
+
 
 // Console out each number individually, but only if it's an even number.
 
 
 console.log('### Challenge #6');
+i = 0
 
+while (i <numbers.length()){
+i = i + 1}(
+else ( console.log (numbers[i]))
 // Console out each number, but only if it ends with a 4 digit.
 
 
