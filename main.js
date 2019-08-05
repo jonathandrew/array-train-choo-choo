@@ -35,27 +35,30 @@ console.log(numbers[i] + 19)
 
 console.log('### Challenge #4');
 i = 0 
+let m = 0
 while( i <numbers.length){
-  console.log(numbers)
+  m = m + numbers[i]
   i  = i + 1
 }
+console.log(m)
 // Console out the sum of all the numbers.
 
 
 console.log('### Challenge #5')
-  if (numbers[] %2 === 0)
-  console.log(numbers[])
-
-
+i = 0
+while (i <numbers.length){
+  if (numbers[i] %2 === 0)
+  console.log(numbers[i])
+  i = i +1
+}
 // Console out each number individually, but only if it's an even number.
 
 
 console.log('### Challenge #6');
-i = 0
+// i = 0
 
-while (i <numbers.length()){
-i = i + 1}(
-else ( console.log (numbers[i]))
+// while (i <numbers.length()){
+// i = i + 1}( ( console.log (numbers[i]))
 // Console out each number, but only if it ends with a 4 digit.
 
 
